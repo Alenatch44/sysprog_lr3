@@ -23,6 +23,7 @@ struct block {
 	/* PUT HERE OTHER MEMBERS */
 };
 
+
 struct file {
 	/** Double-linked list of file blocks. */
 	struct block *block_list;
